@@ -53,7 +53,7 @@ function Home (){
                             <Link to="/booking"><button aria-label="On Click">Reserve a Table</button></Link>
                         </div>
                     </div>
-                    <div>
+                    <div className="ab">
                         <div className="div-img">
                             <img src={food} alt="" />
                         </div>

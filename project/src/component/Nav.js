@@ -37,7 +37,7 @@ function Nav() {
                             <li><a href="#about" onClick={() => scrollToSection("about")} className="nav-link scale">ABOUT</a></li>
                             <li><Link to="/booking" className="nav-link scale">RESERVATIONS</Link></li>
                             <li><Link to="/" className="nav-link scale">LOGIN</Link></li>
-                            <li onClick={() => setSidebar(!sidebar)}><Link to="#" className="nav-link menu">{sidebar ? (<FontAwesomeIcon icon={faXmark} size="3x" />) : (<FontAwesomeIcon icon={faBars} size="3x" />)}</Link></li>
+                            <li onClick={() => setSidebar(!sidebar)}><Link to="#" className="nav-link menu">{sidebar ? (<FontAwesomeIcon icon={faXmark} size="2x" />) : (<FontAwesomeIcon icon={faBars} size="2x" />)}</Link></li>
                         </ul>
                     </nav>
                 </div>
@@ -46,7 +46,7 @@ function Nav() {
                         <li><Link to="/" className="link">Home</Link></li>
                         <li><a href="#menu" onClick={() => scrollToSection("menu")} className="link">MENU</a></li>
                         <li><a href="#about" onClick={() => scrollToSection("about")} className="link">ABOUT</a></li>
-                        <li><Link to="/reservation" className="link">RESERVATIONS</Link></li>
+                        <li><Link to="/booking" className="link">RESERVATIONS</Link></li>
                         <li><Link to="/" className="link">LOGIN</Link></li>
                     </ul>
                 </nav>
